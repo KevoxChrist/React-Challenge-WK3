@@ -19,8 +19,8 @@ function Header(){
 
     <Routes>
       <Route path="/easy" element={<Counter/>}/>
-      <Route path="/medium" element={<MediumPage/>}/>
-      <Route path="/hard" element={<HardPage/>}/>
+      <Route path="/medium/*" element={<MediumPage/>}/>
+      <Route path="/hard/*" element={<HardPage/>}/>
     </Routes>
     </BrowserRouter>
   )
